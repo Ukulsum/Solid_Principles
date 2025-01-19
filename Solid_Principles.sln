@@ -5,6 +5,10 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid_Principles", "Solid_Principles\Solid_Principles.csproj", "{E0E0CB92-DBB2-469F-9272-BD35AD74E972}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP_BankingSystem", "SRP_BankingSystem\SRP_BankingSystem.csproj", "{1F21B3E8-B3C0-430E-B9CE-4796F0D5A6CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP_EducationSystem", "SRP_EducationSystem\SRP_EducationSystem.csproj", "{042B2E50-FAA1-43E6-BA15-E4044A21BC65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E0E0CB92-DBB2-469F-9272-BD35AD74E972}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0E0CB92-DBB2-469F-9272-BD35AD74E972}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0E0CB92-DBB2-469F-9272-BD35AD74E972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F21B3E8-B3C0-430E-B9CE-4796F0D5A6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F21B3E8-B3C0-430E-B9CE-4796F0D5A6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F21B3E8-B3C0-430E-B9CE-4796F0D5A6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F21B3E8-B3C0-430E-B9CE-4796F0D5A6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042B2E50-FAA1-43E6-BA15-E4044A21BC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042B2E50-FAA1-43E6-BA15-E4044A21BC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042B2E50-FAA1-43E6-BA15-E4044A21BC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042B2E50-FAA1-43E6-BA15-E4044A21BC65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
