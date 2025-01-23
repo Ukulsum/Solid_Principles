@@ -13,11 +13,17 @@ namespace SRP_managementofbooksinalibrary
         public string Author { get; set; }
         public int ISBN { get; set; }
 
-        
-        //public void AddBook()
-        //{
-        //    //Logic to add the book to the library's system
-        //    Log($"Added {Title} by {Author}");
-        //}
+
+        public void AddBook()
+        {
+            //Logic to add the book to the library's system
+            Console.WriteLine("Book Added to the Library");
+        }
+
+        public void DeleteBook()
+        {
+            //Logic to delete the book from the library's system
+            Console.WriteLine("Book Deleted from the Library");
+        }
     }
 }

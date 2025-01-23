@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP_Report_Generation_Syste
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP_managementofbooksinalibrary", "SRP_managementofbooksinalibrary\SRP_managementofbooksinalibrary.csproj", "{44BFF527-4C0D-418D-8BCE-47EA9167452E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP_Managing_Employee_Salaries", "SRP_Managing_Employee_Salaries\SRP_Managing_Employee_Salaries.csproj", "{20A7D9AF-0F43-4419-9863-1B0A2C502E96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP_HandlingCustomerOrders", "SRP_HandlingCustomerOrders\SRP_HandlingCustomerOrders.csproj", "{7D5C6E12-07B6-4BB9-9BC1-E6D6ABC37F87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{44BFF527-4C0D-418D-8BCE-47EA9167452E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44BFF527-4C0D-418D-8BCE-47EA9167452E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44BFF527-4C0D-418D-8BCE-47EA9167452E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A7D9AF-0F43-4419-9863-1B0A2C502E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A7D9AF-0F43-4419-9863-1B0A2C502E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A7D9AF-0F43-4419-9863-1B0A2C502E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A7D9AF-0F43-4419-9863-1B0A2C502E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5C6E12-07B6-4BB9-9BC1-E6D6ABC37F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5C6E12-07B6-4BB9-9BC1-E6D6ABC37F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5C6E12-07B6-4BB9-9BC1-E6D6ABC37F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5C6E12-07B6-4BB9-9BC1-E6D6ABC37F87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
