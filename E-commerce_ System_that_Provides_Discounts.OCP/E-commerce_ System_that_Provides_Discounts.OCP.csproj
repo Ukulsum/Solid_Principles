@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{09C34975-A669-4FC1-A29F-806BB27B1982}</ProjectGuid>
+    <ProjectGuid>{24BD2893-1F77-42C0-99FD-0C25735D409A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SRP_Event_Management_System</RootNamespace>
-    <AssemblyName>SRP_Event_Management_System</AssemblyName>
+    <RootNamespace>E_commerce__System_that_Provides_Discounts.OCP</RootNamespace>
+    <AssemblyName>E-commerce_ System_that_Provides_Discounts.OCP</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Event.cs" />
-    <Compile Include="EventPromoter.cs" />
-    <Compile Include="EventStorage.cs" />
+    <Compile Include="DiscountCalculator.cs" />
+    <Compile Include="IDiscountStrategy.cs" />
+    <Compile Include="NewbieDiscount.cs" />
+    <Compile Include="PremiumDiscount.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegularDiscount.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

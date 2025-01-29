@@ -10,6 +10,15 @@ namespace SRP_Event_Management_System
     {
         public static void Main(string[] args)
         {
+            Event concert = new Event { Name = "Rock Concert", Date = DateTime.Now.AddDays(30), Location = " City Arena" };
+
+            EventStorage storage = new EventStorage();
+            storage.SaveEvent(concert);
+
+            EventPromoter promoter = new EventPromoter();
+            promoter.ShareOnSocialMedia(concert);
+
+            Console.ReadKey();
         }
     }
 }
