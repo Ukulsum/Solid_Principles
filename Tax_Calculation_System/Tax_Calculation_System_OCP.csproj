@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{24BD2893-1F77-42C0-99FD-0C25735D409A}</ProjectGuid>
+    <ProjectGuid>{24339E86-916F-4862-8D8A-291798EDF7DF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>E_commerce__System_that_Provides_Discounts.OCP</RootNamespace>
-    <AssemblyName>E-commerce_ System_that_Provides_Discounts.OCP</AssemblyName>
+    <RootNamespace>Tax_Calculation_System</RootNamespace>
+    <AssemblyName>Tax_Calculation_System</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,23 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DiscountCalculator.cs" />
-    <Compile Include="IDiscountStrategy.cs" />
-    <Compile Include="ILogger.cs" />
-    <Compile Include="NewbieDiscount.cs" />
-    <Compile Include="PremiumDiscount.cs" />
+    <Compile Include="ClothingTaxStrategy.cs" />
+    <Compile Include="ElectronicsTaxStrategy.cs" />
+    <Compile Include="GroceriesTaxStrategy.cs" />
+    <Compile Include="ITaxStrategy.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductCategory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegularDiscount.cs" />
+    <Compile Include="TaxCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Solid_Principles\Solid_Principles.csproj">
-      <Project>{E0E0CB92-DBB2-469F-9272-BD35AD74E972}</Project>
-      <Name>Solid_Principles</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
