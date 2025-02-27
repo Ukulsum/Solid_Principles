@@ -31,6 +31,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging_Mechanism_OCP", "Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tax_Calculation_System_OCP", "Tax_Calculation_System\Tax_Calculation_System_OCP.csproj", "{24339E86-916F-4862-8D8A-291798EDF7DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Report_Generation_System_OCP", "Report_Generation_System_OCP\Report_Generation_System_OCP.csproj", "{1A29ED24-DFC4-4368-AC5C-255CDB43BCDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment_Gateway_System_OCP", "Payment_Gateway_System_OCP\Payment_Gateway_System_OCP.csproj", "{73246FB0-175D-4C19-A429-6C6A9223EB28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID_PRINCIPLES.LSP", "SOLID_PRINCIPLES.LSP\SOLID_PRINCIPLES.LSP.csproj", "{46AE9C85-440B-4BE4-97B0-7EA7F6CD085E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank_Accounts_LSP", "Bank_Accounts_LSP\Bank_Accounts_LSP.csproj", "{1AF99072-E5F9-4B3D-AF71-9B31BA2F2050}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +101,22 @@ Global
 		{24339E86-916F-4862-8D8A-291798EDF7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24339E86-916F-4862-8D8A-291798EDF7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24339E86-916F-4862-8D8A-291798EDF7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A29ED24-DFC4-4368-AC5C-255CDB43BCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A29ED24-DFC4-4368-AC5C-255CDB43BCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A29ED24-DFC4-4368-AC5C-255CDB43BCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A29ED24-DFC4-4368-AC5C-255CDB43BCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73246FB0-175D-4C19-A429-6C6A9223EB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73246FB0-175D-4C19-A429-6C6A9223EB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73246FB0-175D-4C19-A429-6C6A9223EB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73246FB0-175D-4C19-A429-6C6A9223EB28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46AE9C85-440B-4BE4-97B0-7EA7F6CD085E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AE9C85-440B-4BE4-97B0-7EA7F6CD085E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AE9C85-440B-4BE4-97B0-7EA7F6CD085E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AE9C85-440B-4BE4-97B0-7EA7F6CD085E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AF99072-E5F9-4B3D-AF71-9B31BA2F2050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF99072-E5F9-4B3D-AF71-9B31BA2F2050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF99072-E5F9-4B3D-AF71-9B31BA2F2050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF99072-E5F9-4B3D-AF71-9B31BA2F2050}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
