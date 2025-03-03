@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID_PRINCIPLES.LSP", "SOL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank_Accounts_LSP", "Bank_Accounts_LSP\Bank_Accounts_LSP.csproj", "{1AF99072-E5F9-4B3D-AF71-9B31BA2F2050}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating_Different_Shapes_LSP", "Creating_Different_Shapes_LSP\Creating_Different_Shapes_LSP.csproj", "{EA894400-2C85-4772-878D-C81EC6F939CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccounts_LSP", "BankAccounts_LSP\BankAccounts_LSP.csproj", "{9033BC3D-4A0C-4516-8F6B-B6CEFC032291}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{1AF99072-E5F9-4B3D-AF71-9B31BA2F2050}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AF99072-E5F9-4B3D-AF71-9B31BA2F2050}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AF99072-E5F9-4B3D-AF71-9B31BA2F2050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA894400-2C85-4772-878D-C81EC6F939CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA894400-2C85-4772-878D-C81EC6F939CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA894400-2C85-4772-878D-C81EC6F939CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA894400-2C85-4772-878D-C81EC6F939CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9033BC3D-4A0C-4516-8F6B-B6CEFC032291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9033BC3D-4A0C-4516-8F6B-B6CEFC032291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9033BC3D-4A0C-4516-8F6B-B6CEFC032291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9033BC3D-4A0C-4516-8F6B-B6CEFC032291}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
