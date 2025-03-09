@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace SOLID_PRINCIPLES.ISP
 {
-    public class HPLaserJetPrinter : IPrinterTasks, IFaxTasks, IPrintDuplexTasks
+    public class LiquidInkjetPrinter : IPrinterTasks
     {
-       
-
         public void Print(string PrintContent)
         {
             Console.WriteLine("Print Done");
@@ -19,15 +17,5 @@ namespace SOLID_PRINCIPLES.ISP
         {
             Console.WriteLine("Scan Content");
         }
-        public void Fax(string content)
-        {
-            Console.WriteLine("Fax Content");
-        }
-
-        public void PrintDuplex(string content)
-        {
-            Console.WriteLine("Print Duplex Content");
-        }
-
     }
 }

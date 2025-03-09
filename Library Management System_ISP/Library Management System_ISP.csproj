@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{286A9179-A9A8-4D28-B64C-CDE27812C9F5}</ProjectGuid>
+    <ProjectGuid>{1D677FF3-7640-451C-AC02-66A32C632340}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SOLID_PRINCIPLES.ISP</RootNamespace>
-    <AssemblyName>SOLID_PRINCIPLES.ISP</AssemblyName>
+    <RootNamespace>Library_Management_System_ISP</RootNamespace>
+    <AssemblyName>Library Management System_ISP</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HPLaserJetPrinter.cs" />
-    <Compile Include="IPrintDuplexTasks.cs" />
-    <Compile Include="IFaxTasks.cs" />
-    <Compile Include="IPrinterTasks.cs" />
-    <Compile Include="LiquidInkjetPrinter.cs" />
+    <Compile Include="Book.cs" />
+    <Compile Include="IBorrowReturn.cs" />
+    <Compile Include="ISearchable.cs" />
+    <Compile Include="Member.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
