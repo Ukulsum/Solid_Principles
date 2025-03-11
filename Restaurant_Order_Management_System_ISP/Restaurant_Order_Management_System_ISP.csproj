@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1D677FF3-7640-451C-AC02-66A32C632340}</ProjectGuid>
+    <ProjectGuid>{9FB8B052-0452-4FDA-BD06-09CE88F4DAE0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Library_Management_System_ISP</RootNamespace>
-    <AssemblyName>Library Management System_ISP</AssemblyName>
+    <RootNamespace>Restaurant_Order_Management_System_ISP</RootNamespace>
+    <AssemblyName>Restaurant_Order_Management_System_ISP</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Book.cs" />
-    <Compile Include="Guest.cs" />
-    <Compile Include="IBorrowReturn.cs" />
-    <Compile Include="IManageInventory.cs" />
-    <Compile Include="ISearchable.cs" />
-    <Compile Include="Librarian.cs" />
-    <Compile Include="Member.cs" />
+    <Compile Include="IInHouseOrder.cs" />
+    <Compile Include="InHouseOrder.cs" />
+    <Compile Include="IOnlineOrder.cs" />
+    <Compile Include="IPhoneOrder.cs" />
+    <Compile Include="OnlineOrder.cs" />
+    <Compile Include="PhoneOrder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

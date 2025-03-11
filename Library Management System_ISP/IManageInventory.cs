@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Library_Management_System_ISP
 {
-    public interface ISearchable
+    public interface IManageInventory
     {
-        void SearchCatalog(string searchTerm);
+        void AddBook(Book book);    
+        void RemoveBook(string bookId);
     }
 }

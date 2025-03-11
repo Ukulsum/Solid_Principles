@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID_PRINCIPLES.ISP", "SOL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library Management System_ISP", "Library Management System_ISP\Library Management System_ISP.csproj", "{1D677FF3-7640-451C-AC02-66A32C632340}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant_Order_Management_System_ISP", "Restaurant_Order_Management_System_ISP\Restaurant_Order_Management_System_ISP.csproj", "{9FB8B052-0452-4FDA-BD06-09CE88F4DAE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{1D677FF3-7640-451C-AC02-66A32C632340}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D677FF3-7640-451C-AC02-66A32C632340}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D677FF3-7640-451C-AC02-66A32C632340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB8B052-0452-4FDA-BD06-09CE88F4DAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB8B052-0452-4FDA-BD06-09CE88F4DAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB8B052-0452-4FDA-BD06-09CE88F4DAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB8B052-0452-4FDA-BD06-09CE88F4DAE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

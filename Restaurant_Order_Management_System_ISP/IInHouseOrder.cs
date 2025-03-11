@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Library_Management_System_ISP
+namespace Restaurant_Order_Management_System_ISP
 {
-    public interface ISearchable
+    public interface IInHouseOrder
     {
-        void SearchCatalog(string searchTerm);
+        void PrintTicket();
     }
 }

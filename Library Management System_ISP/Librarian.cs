@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Library_Management_System_ISP
 {
-    public class Member : IBorrowReturn, ISearchable
+    public class Librarian : IBorrowReturn, ISearchable, IManageInventory
     {
         public void BorrowBook(string bookId)
         {
@@ -14,16 +14,27 @@ namespace Library_Management_System_ISP
             Console.WriteLine($"Member Borrow Book, BookId: {bookId}");
         }
 
-        public void ReturnBook(string bookId)
+        public void RemoveBook(string bookId)
         {
             // Implementation to return a book.
             Console.WriteLine($"Member Return Book, BookId: {bookId}");
+        }
+        public void AddBook(Book book)
+        {
+            // Implementation to add a book.
+            Console.WriteLine($"Librarian Add Book, {book}");
+        }
+
+        public void ReturnBook(string bookId)
+        {
+            // Implementation to remove a book.
+            Console.WriteLine($"Librarian Remove Book, BookId: {bookId}");
         }
 
         public void SearchCatalog(string searchTerm)
         {
             // Implementation to search books.
-            Console.WriteLine($"Member Search Book, Search Catalog: {searchTerm}");
+            Console.WriteLine($"Librarian Search Book, Search Catalog: {searchTerm}");
         }
     }
 }
