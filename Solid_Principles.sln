@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library Management System_I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant_Order_Management_System_ISP", "Restaurant_Order_Management_System_ISP\Restaurant_Order_Management_System_ISP.csproj", "{9FB8B052-0452-4FDA-BD06-09CE88F4DAE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message_Logger_System_DIP", "Message_Logger_System_DIP\Message_Logger_System_DIP.csproj", "{6AFEC260-9C92-41C3-BAF4-D0B739C1EF09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Music_Player_System_DIP", "Music_Player_System_DIP\Music_Player_System_DIP.csproj", "{8E940505-B8A5-45B6-9B0B-92ECC0576812}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{9FB8B052-0452-4FDA-BD06-09CE88F4DAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FB8B052-0452-4FDA-BD06-09CE88F4DAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FB8B052-0452-4FDA-BD06-09CE88F4DAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AFEC260-9C92-41C3-BAF4-D0B739C1EF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFEC260-9C92-41C3-BAF4-D0B739C1EF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFEC260-9C92-41C3-BAF4-D0B739C1EF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFEC260-9C92-41C3-BAF4-D0B739C1EF09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E940505-B8A5-45B6-9B0B-92ECC0576812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E940505-B8A5-45B6-9B0B-92ECC0576812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E940505-B8A5-45B6-9B0B-92ECC0576812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E940505-B8A5-45B6-9B0B-92ECC0576812}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
